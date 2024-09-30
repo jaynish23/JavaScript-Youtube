@@ -1,0 +1,17 @@
+Q.1) difference between innerText and textContent
+Ans -> textContent badhi value dese 
+if h1 tag ma haji ek tag che and eni styling Display: none hase to bi aakho content dekhase
+jyare inner text ma khali h1 tag eklo j dekhase span (bijo tag ) nahi dekhay
+
+interview ma em kevanu ke badhi j value joiti hoy to textContent and khali particular then innerText
+
+
+innerHTML --> te aakhe aakho tag aapse
+
+
+aama HTMLCollection
+document.getElementsByClassName('heading')
+HTMLCollection [h1#title.heading, title: h1#title.heading]
+
+aa che nodelist
+document.querySelectorAll('id/class/tag')

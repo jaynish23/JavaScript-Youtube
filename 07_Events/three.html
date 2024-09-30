@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>chai aur code with hitesh</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    // setTimeout is run only once
+    //setTimeout(function (){
+    //   console.log("hitesh")
+    //} ,2000)
+  //  const hiteshsir = function () {
+    //    console.log("Jaynish")
+   // }
+   // setTimeout(hiteshsir, 2000)
+
+   // const changeText = function () {
+     //   document.querySelector('h1').innerHTML = "best JS Series of you tube"
+   // }
+//    let changeME = setTimeout(changeText,5000)
+  //  document.querySelector('#stop').addEventListener('click',function(){
+    //    clearTimeout(changeME)
+      //  console.log("STOPPED")
+   // })
+
+   //setInterval -->  aa work karse darek time interval na frame ma suppose interval time is 1 second then run continuous
+//   setInterval(function(){
+  //  console.log("jaynish")
+  // },2000)
+
+  const sayDate = function(str){
+    console.log(str, Date.now())
+  }
+ const intervalID=  setInterval(sayDate, 1000, "hii")
+ clearInterval(intervalID)
+</script>
+
+</html>
